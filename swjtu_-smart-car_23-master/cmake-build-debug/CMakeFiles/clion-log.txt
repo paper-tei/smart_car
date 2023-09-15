@@ -1,0 +1,48 @@
+"H:\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/MinGW/bin/mingw32-make.exe -DCMAKE_C_COMPILER=H:/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=H:/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe -G "CodeBlocks - MinGW Makefiles" -S C:\Users\24916\Desktop\23_smartcar -B C:\Users\24916\Desktop\23_smartcar\cmake-build-debug
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: H:/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe
+-- Check for working C compiler: H:/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe - broken
+CMake Error at H:/CLion 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake:69 (message):
+  The C compiler
+
+    "H:/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/24916/Desktop/23_smartcar/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_e2eba/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e2eba.dir\build.make CMakeFiles/cmTC_e2eba.dir/build
+    mingw32-make.exe[1]: Entering directory 'C:/Users/24916/Desktop/23_smartcar/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_e2eba.dir/testCCompiler.c.obj
+    H:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe    -o CMakeFiles\cmTC_e2eba.dir\testCCompiler.c.obj -c C:\Users\24916\Desktop\23_smartcar\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+    Linking C executable cmTC_e2eba.exe
+    "H:\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e2eba.dir\link.txt --verbose=1
+    "H:\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e2eba.dir/objects.a
+    H:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-ar.exe qc CMakeFiles\cmTC_e2eba.dir/objects.a @CMakeFiles\cmTC_e2eba.dir\objects1.rsp
+    H:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_e2eba.dir/objects.a -Wl,--no-whole-archive -o cmTC_e2eba.exe -Wl,--out-implib,libcmTC_e2eba.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e2eba.dir\linklibs.rsp
+    h:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+    h:/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+    collect2.exe: error: ld returned 1 exit status
+    CMakeFiles\cmTC_e2eba.dir\build.make:99: recipe for target 'cmTC_e2eba.exe' failed
+    mingw32-make.exe[1]: *** [cmTC_e2eba.exe] Error 1
+    mingw32-make.exe[1]: Leaving directory 'C:/Users/24916/Desktop/23_smartcar/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Makefile:126: recipe for target 'cmTC_e2eba/fast' failed
+    mingw32-make.exe: *** [cmTC_e2eba/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/24916/Desktop/23_smartcar/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/24916/Desktop/23_smartcar/cmake-build-debug/CMakeFiles/CMakeError.log".

@@ -1,0 +1,576 @@
+{
+  "schematics": {
+    "e324f33111c845ed812d614195d57328": {
+      "name": "Schematic3",
+      "sheets": [
+        {
+          "name": "P1",
+          "id": 1,
+          "uuid": "8307132c9b454b60b916ec52bf08835f"
+        }
+      ]
+    }
+  },
+  "pcbs": {
+    "e93a2605dc884c459d7deca3e3255de1": "PCB9"
+  },
+  "panels": {},
+  "symbols": {
+    "0e2f8dbdac9d440e99710506de9ec805": {
+      "source": "f2baecf085944dad81faf9a0fd6bfcea|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"\",\"\"]",
+      "title": "Sheet-Symbol_A4",
+      "version": "1664282381",
+      "type": 20
+    },
+    "262f90fc35834b39bbca349f5b92358b": {
+      "source": "08fc2d76d0ae43f480839b2c0ad62f0f|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Operational Amplifier/Comparator\",\"Precision OpAmps\"]",
+      "title": "OPA4377AIPW",
+      "version": "1651678504",
+      "type": 2
+    },
+    "52138e37a6954575bdbcd7f0e59aa4ff": {
+      "source": "a1a4c9f331e14b1185233e8b46622665|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Diodes\",\"Schottky Barrier Diodes (SBD)\"]",
+      "title": "1N5819_C437199",
+      "version": "1667957414",
+      "type": 2
+    },
+    "b7098231a83d4c6f9aeb22624f7f31a1": {
+      "source": "f74daa900b954fc29a5bc4823dbac7f1|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "100nF (104) ±10% 50V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]",
+      "title": "1210B104K500NT",
+      "version": "1667592806",
+      "type": 2
+    },
+    "a0abe57d35b14e7987b5007de57cbc4f": {
+      "source": "4ffe609eb090457c8727477fa6a81384|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "100KΩ",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Variable Resistors/Potentiometers\"]",
+      "title": "3296W-1-104LF",
+      "version": "1667280369",
+      "type": 2
+    },
+    "6844607029254d3bbb4ab1d3d1549909": {
+      "source": "d72a59d053bc4a2787fab39e687c50bf|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "CRT1206-AV-1001ELF",
+      "version": "1667208004",
+      "type": 2
+    },
+    "d6775a5506dc4de18c4b0a17ed5b04e1": {
+      "source": "542d01b8b25e4236a453d7437c3944df|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Ground-GND",
+      "version": "1642995718",
+      "type": 18
+    },
+    "112612522d15408fac7608dfa59526bb": {
+      "source": "8a04e22374494d55957a030ec33de1cb|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "5-Voltage",
+      "version": "1656577930",
+      "type": 18
+    },
+    "90b6d14d24034f0c9eb7fd9b11906b1e": {
+      "source": "be834d7f096f401d8c1574e701984284|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "https://item.szlcsc.com/238440.html?ref=editor&logined=true",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"连接器\",\"排针\"]",
+      "title": "A2541WR-2X5P",
+      "version": "1669753102",
+      "type": 2
+    },
+    "92f5d9f48e204a34a6a5423aac1376f2": {
+      "source": "cb50846b5c954ff9851064c23e7aacc0|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"光耦/LED/数码管/光电器件\",\"发光二极管/LED\"]",
+      "title": "11-21/BHC-AQ2S2/2T",
+      "version": "1669630099",
+      "type": 2
+    },
+    "f0bb7d71d7214df895f6835a3bd8d5bf": {
+      "source": "cff1edeb299045688f5b72a84aa5b413|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"电容\",\"贴片电容(MLCC)\"]",
+      "title": "TCC0603X7R104K500CT",
+      "version": "1667160305",
+      "type": 2
+    }
+  },
+  "footprints": {
+    "bae1b60ce2534be382bb37becc452970": {
+      "title": "TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL",
+      "source": "0ed85a9919db4ee9a11244d42ebeb18a|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1642397351",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"TSSOP-14\"]"
+    },
+    "f7f3caca318e462f914d18074e9ca17a": {
+      "title": "SMA_L4.4-W2.6-LS5.0-RD",
+      "source": "42b4bdb98f6a4c60a2cd002e6c0ea909|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1627373270",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SMA\"]"
+    },
+    "43404d4c5ac747458570ee5099d82da5": {
+      "title": "C0603",
+      "source": "76d6c29a47804db487f8a92b2621751b|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1652410754",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CAP-SMD\"]"
+    },
+    "c8e3643d3d194c76a59ea888db54ab96": {
+      "title": "RES-ADJ-TH_3296W",
+      "source": "3c4f31fd4554488cba766a4e78866ab0|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1658216631",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"RES-ADJ-TH\"]"
+    },
+    "c3ab8c27974a410cbc37c36b5817d0ba": {
+      "title": "R1206",
+      "source": "5a1c051c2d374964995f659053b54f02|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1652416987",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"RES-SMD\"]"
+    },
+    "e4dd00af58554b15b3ea4bbaf8c1ca5c": {
+      "title": "R0603",
+      "source": "50b4943912284dab97752312e589e9e2|ad51f1650f28546d453034415091615920a90763604e0060e79140e41b7c6d91",
+      "version": "1651215817",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"RES-SMD\"]"
+    },
+    "9f99eea4af8d4731aa070e5b217014df": {
+      "title": "HDR-TH_10P-P2.54-H-M-R2-C5-S2.54-W12.6",
+      "source": "ba28f496751d4f9b886154fc10cbbc31|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1626404658",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"HDR-TH\"]"
+    },
+    "e5f4794dca184a97a3fafee17d2003ea": {
+      "title": "LED-SMD_L3.0-W1.5-RD",
+      "source": "9e8f7b117dad4c1c9e6dfaaa75c3f46b|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1652959357",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"LED-SMD\"]"
+    }
+  },
+  "devices": {
+    "ba137c07f3994c40b9702b1a5dc12916": {
+      "title": "Sheet-Symbol_A4",
+      "attributes": {
+        "Symbol": "0e2f8dbdac9d440e99710506de9ec805",
+        "@Page Name": "",
+        "@Create Date": "",
+        "@Page Count": "",
+        "@Page No": "",
+        "@Project Name": "",
+        "@Schematic Name": "",
+        "@Update Date": "",
+        "Company": "嘉立创EDA",
+        "Device": "",
+        "Drawed": "",
+        "Page Size": "A4",
+        "Part Number": "",
+        "Reviewed": "",
+        "Version": "V1.0",
+        "Footprint": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "4b872d674c0b4b0e8ede0a73cf1a0316|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664282381",
+      "custom_tags": "[\"\",\"\"]"
+    },
+    "5c24650a40a94ae899af99e612013a73": {
+      "title": "OPA4377AIPW",
+      "attributes": {
+        "LCSC Part Name": "OPA4377AIPW",
+        "Supplier Part": "C1346362",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "OPA4377AIPW",
+        "Supplier Footprint": "TSSOP-14",
+        "JLCPCB Part Class": "扩展库",
+        "Datasheet": "https://atta.szlcsc.comnull",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "262f90fc35834b39bbca349f5b92358b",
+        "Designator": "U?",
+        "Footprint": "bae1b60ce2534be382bb37becc452970",
+        "3D Model": "02f1f60386074b2ca8e111040ac061f2",
+        "3D Model Title": "TSSOP-14_L5.0-W4.4-H1.0-LS6.4-P0.65",
+        "3D Model Transform": "237,196.9,0,90,0,0,0,0,0",
+        "Name": "={Manufacturer Part}",
+        "Description": "四路低成本、低噪声、5.5MHz CMOS 运算放大器 14-TSSOP -40 to 125"
+      },
+      "description": "四路低成本、低噪声、5.5MHz CMOS 运算放大器 14-TSSOP -40 to 125",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "34c59a0a164449fda0ad84f5d0bd446c|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1657831203",
+      "custom_tags": "[\"Operational Amplifier/Comparator\",\"Precision OpAmps\"]"
+    },
+    "f3ee8e89c4344269b191d7b0180f8958": {
+      "title": "1N5819_C437199",
+      "attributes": {
+        "LCSC Part Name": "40V 1A 500mV@1A",
+        "Supplier Part": "C437199",
+        "Manufacturer": "KEXIN(科信)",
+        "Manufacturer Part": "1N5819",
+        "Supplier Footprint": "SMA",
+        "JLCPCB Part Class": "扩展库",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20191012/C437199_83583E622A6684E767605E43C169C596.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "52138e37a6954575bdbcd7f0e59aa4ff",
+        "Designator": "D?",
+        "Footprint": "f7f3caca318e462f914d18074e9ca17a",
+        "3D Model": "972d26354d034239a6c09eb6538bb96b",
+        "3D Model Title": "SMA_L4.4-W2.6-LS5.0-RD",
+        "3D Model Transform": "204.7,98.4,0,0,0,0,0,0,0",
+        "Reverse Voltage (Vr)": "40V",
+        "Average Rectified Current (Io)": "1A",
+        "Forward Voltage (Vf@If)": "500mV@1A",
+        "Name": "={Manufacturer Part}",
+        "Description": "直流反向耐压(Vr):40V;平均整流电流(Io):1A;正向压降(Vf):500mV@1A;"
+      },
+      "description": "直流反向耐压(Vr):40V;平均整流电流(Io):1A;正向压降(Vf):500mV@1A;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "cc1585595f84466193915b943328ee41|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1654720935",
+      "custom_tags": "[\"Diodes\",\"Schottky Barrier Diodes (SBD)\"]"
+    },
+    "f967fa4254bb42db80cedd22f4eb835b": {
+      "title": "TCC0603X7R104K500CT",
+      "attributes": {
+        "LCSC Part Name": "100nF ±10% 50V",
+        "Supplier Part": "C282519",
+        "Manufacturer": "CCTC(三环)",
+        "Manufacturer Part": "TCC0603X7R104K500CT",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "扩展库",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20180917/C282519_8CE721FA29EE85BB321020B63D7877A0.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "f0bb7d71d7214df895f6835a3bd8d5bf",
+        "Designator": "C?",
+        "Footprint": "43404d4c5ac747458570ee5099d82da5",
+        "3D Model": "ac125912035d415993ca9572d50418b1",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rated": "50V",
+        "Temperature Coefficient": "X7R",
+        "Name": "={Value}",
+        "Description": "容值:100nF;精度:±10%;额定电压:50V;材质(温度系数):X7R;"
+      },
+      "description": "容值:100nF;精度:±10%;额定电压:50V;材质(温度系数):X7R;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20180920/271D1F0042FF6EFE3CFC7BBD1F5ECABC.jpg",
+      "source": "e4f5e170bf0a408d9e8a30a27ee1547b|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1658259911",
+      "custom_tags": "[\"电容\",\"贴片电容(MLCC)\"]"
+    },
+    "4b24a9d1587b43fdb400efdc40c7505a": {
+      "title": "3296W-1-104LF",
+      "attributes": {
+        "LCSC Part Name": "100kΩ ±10%",
+        "Supplier Part": "C48084",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Part": "3296W-1-104LF",
+        "Supplier Footprint": "插件",
+        "JLCPCB Part Class": "扩展库",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20150811/1457707339453.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "a0abe57d35b14e7987b5007de57cbc4f",
+        "Designator": "R?",
+        "Footprint": "c8e3643d3d194c76a59ea888db54ab96",
+        "3D Model": "3664f7b541aa4725a8b6d3b7a961f078",
+        "3D Model Title": "RES-ADJ-TH_3296W",
+        "3D Model Transform": "374.015,188.976,0,90,0,0,2.362,0.005,-137.795",
+        "Value": "100kΩ",
+        "Tolerance": "±10%",
+        "Name": "={Value}",
+        "Description": "阻值:100kΩ;精度:±10%;"
+      },
+      "description": "阻值:100kΩ;精度:±10%;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "ec938fda75a44d24a0bb87c05939961f|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1656619578",
+      "custom_tags": "[\"Resistors\",\"Variable Resistors/Potentiometers\"]"
+    },
+    "718682cac0fd49759eb7cbc7e45bc4d1": {
+      "title": "CRT1206-AV-1001ELF",
+      "attributes": {
+        "LCSC Part Name": "1kΩ",
+        "Supplier Part": "C3997938",
+        "Manufacturer": "BOURNS",
+        "Manufacturer Part": "CRT1206-AV-1001ELF",
+        "Supplier Footprint": "1206",
+        "JLCPCB Part Class": "",
+        "Datasheet": "https://atta.szlcsc.comnull",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "6844607029254d3bbb4ab1d3d1549909",
+        "Designator": "R?",
+        "Footprint": "c3ab8c27974a410cbc37c36b5817d0ba",
+        "3D Model": "89a1f13db2384da588040e0b3c55bf66",
+        "3D Model Title": "R1206_L3.2-W1.6-H0.6",
+        "3D Model Transform": "125.984,62.992,0,0,0,0,0,0,0",
+        "Value": "1kΩ",
+        "Tolerance": "-",
+        "Name": "={Value}",
+        "Description": "阻值:1kΩ;精度:-;"
+      },
+      "description": "阻值:1kΩ;精度:-;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "ac538ae6bc1f4d83b0d1e5694333e0a1|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1667209217",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "e968752c3f084434b315191402755f3c": {
+      "title": "Ground-GND",
+      "attributes": {
+        "Symbol": "d6775a5506dc4de18c4b0a17ed5b04e1"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "9a64ac5790a940f7ae40fc736dc6faff|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1635931210",
+      "custom_tags": "[]"
+    },
+    "3241d241fb994e8b93c1b063f533304c": {
+      "title": "Power-5V",
+      "attributes": {
+        "Symbol": "112612522d15408fac7608dfa59526bb",
+        "Global Net Name": "+5V",
+        "Footprint": ""
+      },
+      "description": "Power-5V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "c19033e4f560428090e4fc097513e5e3|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1656577930",
+      "custom_tags": "[]"
+    },
+    "072c21f24ed84868ad1092a79f80257f": {
+      "title": "A2541WR-2x5P",
+      "attributes": {
+        "LCSC Part Name": "2.54mm 2x5P 弯插 方针",
+        "Supplier Part": "C239336",
+        "Manufacturer": "CJT(长江连接器)",
+        "Manufacturer Part": "A2541WR-2x5P",
+        "Supplier Footprint": "插件,P=2.54mm",
+        "JLCPCB Part Class": "扩展库",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20180724/C239336_9A63C36EC8C4BBAA9C5046795881E643.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "90b6d14d24034f0c9eb7fd9b11906b1e",
+        "Designator": "H?",
+        "Footprint": "9f99eea4af8d4731aa070e5b217014df",
+        "3D Model": "66dcb0d10d864a6fa7f7fb003119df45",
+        "3D Model Title": "HDR-TH_10P-P2.54-M-WI-2X5P",
+        "3D Model Transform": "500,507.9,0,180,0,0,0,190.9,-118.1",
+        "Pitch": "2.54mm",
+        "Number of Pins": "10",
+        "Number of Rows": "2",
+        "Pin Structure": "2x5P",
+        "Row Spacing": "2.54mm",
+        "Mounting Type": "弯插",
+        "Circluar Pins/Square Pins": "方针",
+        "Current Rating (Max)": "-",
+        "Voltage Rating (Max)": "-",
+        "Length of Mating Pin": "6mm",
+        "Insulation Height": "2.54mm",
+        "Contact Material": "黄铜",
+        "Contact Plating": "-",
+        "Operating Temperature Range": "-40℃~+105℃",
+        "Color": "黑色",
+        "Name": "={Manufacturer Part}",
+        "Description": "间距:2.54mm;总PIN位数:10;排数:2;插针结构:2x5P;行距:2.54mm;安装类型:弯插;圆针/方针:方针;额定电流:-;额定电压:-;配合针长度:6mm;塑高:2.54mm;触头材质:黄铜;触头镀层:-;工作温度范围:-40℃~+105℃;颜色:黑色;"
+      },
+      "description": "间距:2.54mm;总PIN位数:10;排数:2;插针结构:2x5P;行距:2.54mm;安装类型:弯插;圆针/方针:方针;额定电流:-;额定电压:-;配合针长度:6mm;塑高:2.54mm;触头材质:黄铜;触头镀层:-;工作温度范围:-40℃~+105℃;颜色:黑色;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20180907/0F73C65170A080AF35EC24CA4161AC65.jpg",
+      "source": "cd616a4a6abb48829b4219d5797848e1|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1655410862",
+      "custom_tags": "[\"连接器\",\"排针\"]"
+    },
+    "a27799b8ce02435abb6789df77b99081": {
+      "title": "11-21/BHC-AQ2S2/2T",
+      "attributes": {
+        "LCSC Part Name": "Led",
+        "Supplier Part": "C3014404",
+        "Manufacturer": "EVERLIGHT(亿光)",
+        "Manufacturer Part": "11-21/BHC-AQ2S2/2T",
+        "Supplier Footprint": "SMD,1.5x3mm",
+        "JLCPCB Part Class": "扩展库",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20220513/A56B845CA083C4E68F88D304929CC0C5.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "92f5d9f48e204a34a6a5423aac1376f2",
+        "Designator": "LED?",
+        "Footprint": "e5f4794dca184a97a3fafee17d2003ea",
+        "3D Model": "2866ed63c61849fea0265cfcb5bfbe55",
+        "3D Model Title": "LED-SMD_L3.0-W1.5-H1.5-RD",
+        "3D Model Transform": "118.11,59.055,0,0,0,0,-0.003,-0.004,0",
+        "Name": "={Manufacturer Part}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "https://alimg.szlcsc.com/upload/public/product/middle/20220527/EFAE3478942278D0BC781A01D75B9472.jpg",
+      "source": "98a0c45f31f74272b4d8e20986ba822a|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1657916705",
+      "custom_tags": "[\"光耦/LED/数码管/光电器件\",\"发光二极管/LED\"]"
+    }
+  },
+  "boards": {
+    "电磁运放": {
+      "schematic": "e324f33111c845ed812d614195d57328",
+      "pcb": "e93a2605dc884c459d7deca3e3255de1"
+    }
+  },
+  "config": {
+    "title": "电磁运放",
+    "cbbProject": false,
+    "defaultSheet": "",
+    "editorVersion": "1.9.23.ef21fa"
+  }
+}
