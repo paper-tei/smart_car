@@ -97,18 +97,18 @@ void PID_Change(void) // 切换参数
         if (roadblock.roadblock_state == BREAKER1) {
             if (my_abs(navigation.cur_yaw - navigation.inertial_navigation_set_yaw_up_total) > 3) {
                 bdc_speed_max = 400;
-                Buzzer(1);
+              //  Buzzer(1);
             }
             else if ((my_abs(navigation.y_set - navigation.y_cur) < 500) && (my_abs(navigation.x_set - navigation.x_cur) < 500)) {
-                Buzzer(0);
+            
                 bdc_speed_max = 500;
             }
             else if ((my_abs(navigation.y_set - navigation.y_cur) < 2500) && (my_abs(navigation.x_set - navigation.x_cur) < 2500)) {
-                Buzzer(0);
+              
                 bdc_speed_max = 1200;
             }
             else {
-                Buzzer(1);
+               // Buzzer(1);
                 bdc_speed_max = 1800;
             }
         }

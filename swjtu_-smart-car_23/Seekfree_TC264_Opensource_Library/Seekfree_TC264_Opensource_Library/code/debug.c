@@ -215,16 +215,3 @@ void uart_lower_computer(void) {
     //        }
 }
 
-
-void buzzer_uart(void) {
-    // if (buzzer_flag == 1) {
-    Buzzer(1);
-    system_delay_ms(20);
-    Buzzer(1);
-    system_delay_ms(20);
-    Buzzer(1);
-    system_delay_ms(20);
-    Buzzer(0);
-    //     buzzer_flag = 0;
-    // }
-}

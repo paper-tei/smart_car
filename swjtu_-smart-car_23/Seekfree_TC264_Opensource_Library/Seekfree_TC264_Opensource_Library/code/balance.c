@@ -68,7 +68,7 @@ float BLDC_YAW_ANGLESPEED_LOOP(float value) {
 //角度
 float BLDC_YAW_ANGLE_LOOP(float value) {
     float SetValue = value;
-    float ActualValue = BLDC_YAW_ANGLE_Value;
+    float ActualValue = 0;
     float out = Positional_PID(&bldc_yaw_angle_wheel, SetValue, ActualValue, 40);//adc_error_2  -1到1；
     return out;
 }

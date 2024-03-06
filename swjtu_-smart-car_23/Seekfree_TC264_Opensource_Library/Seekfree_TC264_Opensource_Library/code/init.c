@@ -22,12 +22,11 @@ void Init(void) {
 
 
 
-
-     // 初始化屏幕
-    ips200_set_dir(IPS200_PORTAIT);
-    ips200_init(IPS200_TYPE_PARALLEL8);
-    Buzzer(1);
-    // 按键初始化
+    // 初始化屏幕
+   //ips200_set_dir(IPS200_PORTAIT);
+   //ips200_init(IPS200_TYPE_PARALLEL8);
+   //Buzzer(1);
+   // 按键初始化
     gpio_init(KEY1, GPI, 0, GPI_PULL_DOWN);
     gpio_init(KEY2, GPI, 0, GPI_PULL_DOWN);
     gpio_init(KEY3, GPI, 0, GPI_PULL_DOWN);
@@ -67,15 +66,15 @@ void Init(void) {
     //     //wireless_uart_init();
        // 初始化imu
     imu660ra_init();
-    Buzzer(0);
+
     // 修正零漂
-    gyroOffset_init();
+   // gyroOffset_init();
     // 初始化摄像头
-    mt9v03x_init();
+   //mt9v03x_init();
     //     // 逆透视变换
     //     //ImagePerspective_Init();
     //     //ImageChange_Init();
-    dl1a_init();
+    //dl1a_init();
     // 定时器初始化
     pit_ms_init(CCU60_CH0, 1);
     //初始化adc电磁输入

@@ -481,7 +481,7 @@ void breaker_handler(void) {
     }
     //等待转向回正，设置目标点为计时器触发
     else if (roadblock.roadblock_state == BREAKER2) {
-        Buzzer(0);
+      
 
         if (my_abs(navigation.cur_yaw - navigation.inertial_navigation_set_yaw_up_total) <= 3) {
             navigation.x_set = 0;   //mm
@@ -492,7 +492,7 @@ void breaker_handler(void) {
     }
     //回车库
     else if (roadblock.roadblock_state == BREAKER3) {
-        Buzzer(1);
+       
         if ((my_abs(navigation.y_set - navigation.y_cur) < 20) && (my_abs(navigation.x_set - navigation.x_cur) < 20)) {
             navigation.x_set = 0;   //mm
             navigation.y_set = 0;   //mm
@@ -504,7 +504,7 @@ void breaker_handler(void) {
     }
     else if (roadblock.roadblock_state == BREAKER4) {
         if ((my_abs(navigation.y_set - navigation.y_cur) < 40) && (my_abs(navigation.x_set - navigation.x_cur) < 40)) {
-            Buzzer(0);
+           
             STOP_BLDC(1);
             SET_BDC_PWM(0);
             SET_BLDC_B_PWM(0);

@@ -172,7 +172,7 @@ void in_home(void) {
         navigation.y_set = 0;   //mm
         bdc_speed_max = 200;
         if ((my_abs(navigation.y_set - navigation.y_cur) < 15) && (my_abs(navigation.x_set - navigation.x_cur) < 15)) {
-            Buzzer(0);
+
             STOP_BLDC(1);
             SET_BDC_PWM(0);
             SET_BLDC_B_PWM(0);

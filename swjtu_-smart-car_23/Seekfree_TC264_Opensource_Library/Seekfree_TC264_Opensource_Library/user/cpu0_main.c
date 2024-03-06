@@ -81,8 +81,8 @@ void core0_main(void) {
     Emergency_flag = 0;
     while (TRUE) {
         //uint32 time1 = system_getval();
-
-        if (mt9v03x_finish_flag) {
+        Buzzer(0);
+        if (0) {
 #if IMAGE == 22
             Get_Threshold_Image();
             //起始巡线
@@ -169,7 +169,7 @@ void core0_main(void) {
 #endif
             mt9v03x_finish_flag = 0;
         }
-        if (go_flag == 0) {
+        if (0) {
             if (debug.flag == 0) {
                 ips200_show_gray_image(0, 0, Threshold_Image[0], MT9V03X_W, MT9V03X_H, MT9V03X_W, MT9V03X_H, 0);
                 //Compressimage();
@@ -211,9 +211,9 @@ void core0_main(void) {
                 // ips200_show_float(100, 290, car_mode.now_mode, 4, 6);
                 Draw_line();
             }
-            else {
-                debug_display();
-            }
+            // else {
+            //     debug_display();
+            // }
         }
         // ips200_show_float(0, 190, navigation.cur_yaw, 4, 4);
         // ips200_show_float(0, 190,  navigation.inertial_navigation_cur_distance, 8, 4);

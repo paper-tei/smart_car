@@ -117,8 +117,8 @@ void Fuse_result(void) {
         //servo_pwm = eulerAngle_pitch * 5.5555 + 750;
         //servo_pwm = 755;
         // if (servo_pwm < 755)servo_pwm = 755;
-        test1 = servo_pwm;
-        SET_SERVO_PWM(servo_pwm);
+        // test1 = servo_pwm;
+        // SET_SERVO_PWM(servo_pwm);
 
         // flag_pose_1s = Attitude_stability_judgment(eulerAngle_roll, eulerAngle_pitch);
         Flag.T_20ms = 0;

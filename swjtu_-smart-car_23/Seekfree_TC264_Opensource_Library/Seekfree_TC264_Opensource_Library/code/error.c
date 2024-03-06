@@ -49,6 +49,7 @@ void get_deviation(void) {
 
     //image_Error = limit(image_Error, -40, 40);
     image_Error = image_Error * image_low_pass + image_Error_get * (1 - image_low_pass);
+    image_Error = 0;
     //  }
 }
 uint8 unlost_R = 0, unlost_L = 0, min_break_L = 0, min_break_R = 0;
